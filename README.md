@@ -58,7 +58,8 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use and 
 
 If you have any questions, suggestions, or feedback, please feel free to contact the project maintainer:
 
-Your Name: Hammad Ur Rafay
+Name: Hammad Ur Rafay
+
 Email: hammad@aiwarehub.com
 
 We hope you find the Screenshot-to-webp project useful and look forward to your contributions!
