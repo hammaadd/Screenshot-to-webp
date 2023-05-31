@@ -54,4 +54,8 @@ if result and url_ss:
     if check:
         image = Image.open(check)
         st.image(image, caption=f'Screenshot of website {title}')
+else:
+    st.markdown("""
+                    ### Add Url to proceed
+                    """)
     
