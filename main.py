@@ -13,6 +13,8 @@ st.markdown(
 url_ss = st.text_input("Add Url of site you want to take screenshot of.", key=None, type="default", placeholder="Url of the website eg: https://www.google.com", label_visibility="visible")
 #Input Field to take name for screenshot
 name_of_site = st.text_input("Add name of the screenshot *This is optional.", key=None, type="default", placeholder="Google", label_visibility="visible")
+#Input Field to add wait time after link is opened
+sleep_time = st.number_input("Add Wait Time in seconds After Link is opened how long It should wait to take screenshot",min_value=1, max_value=60, key=None, value=1 ,step=1, label_visibility="visible")
 
 #Button to take screenshot
 result = st.button("Take Screenshot")
